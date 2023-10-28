@@ -32,7 +32,7 @@ Then add these dependencies to pom.xml file:
  # Create GraphQL Schema
 We’re gonna split up your schema into two .graphqls files. The Spring Boot GraphQL starter will automatically find these schema files.
 
-Under src/main/resources folder, create author.graphqls and tutorial.graphqls files
+Under src/main/resources folder, create shemas.graphqls files
 
 # Define the Employee type
 type Employee {
