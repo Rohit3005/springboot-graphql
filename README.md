@@ -4,12 +4,12 @@ GraphQL is a query language that offers an alternative model to developing APIs 
 # Technology
 Our Spring Boot application will use:
 
-Java 8
-Spring Boot 2 (with Spring Web, Spring Data JPA)
-graphql-spring-boot-starter 5.0.2
-graphql-java-tools 5.2.4
-Maven 3.6.1
-MySQL
+- Java 8
+- Spring Boot 2 (with Spring Web, Spring Data JPA)
+- graphql-spring-boot-starter 5.0.2
+- graphql-java-tools 5.2.4
+- Maven 3.6.1
+- MySQL
 
 # Set up the project
 Create new Spring Boot project using Spring Tool Suite or going to https://start.spring.io/.
