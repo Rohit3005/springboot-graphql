@@ -17,12 +17,12 @@ Create new Spring Boot project using Spring Tool Suite or going to https://start
 Then add these dependencies to pom.xml file:
 
 # Graphql 
-  <dependency>
+                 <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-graphql</artifactId>
 		</dependency>
 
-  <dependency>
+                <dependency>
 			<groupId>org.springframework.graphql</groupId>
 			<artifactId>spring-graphql-test</artifactId>
 			<scope>test</scope>
