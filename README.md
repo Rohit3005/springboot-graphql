@@ -35,6 +35,7 @@ We’re gonna split up your schema into two .graphqls files. The Spring Boot Gra
 Under src/main/resources folder, create shemas.graphqls files
 
 # Define the Employee type
+
 type Employee {
   empId: ID!
   empName: String!
@@ -48,10 +49,11 @@ type Employee {
 
 
 # Define queries to fetch employee data
-type Query {
+
+ type Query {
   getEmployee(empId: ID!): Employee
   getAllEmployees: [Employee]
-}
+ }
 
 # API Testing POSTMAN API
 For checking result, you can use Postman to make HTTP POST request to http://localhost:8080/graphql.
