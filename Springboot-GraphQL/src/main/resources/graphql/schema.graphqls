@@ -1,0 +1,20 @@
+
+# Define the Employee type
+type Employee {
+  empId: ID!
+  empName: String!
+  empAddress: String
+  empSalary: Float
+  empContactNumber: Int
+  empEmailId: String
+  empPassword: String
+}
+
+
+
+# Define queries to fetch employee data
+type Query {
+  getEmployee(empId: ID!): Employee
+  getAllEmployees: [Employee]
+}
+
